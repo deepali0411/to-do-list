@@ -1,0 +1,36 @@
+.container {
+    box-sizing: border-box;
+    padding: 1.6rem;
+    width: 108rem;
+    font-size: 1.6rem;
+    .addTaskcontainer {
+        border: 0.2rem solid #cdcdcd;
+        border-radius: 0.4rem;
+        padding: 1.6rem;
+        .inputBox {
+            height: 3.2rem;
+            width: 60%;
+            padding: 0.8rem;
+            box-sizing: border-box;
+            border-radius: 0.4rem;
+            border: 0.1rem solid #e5e4e2;
+        }
+        .addButton {
+            border-radius: 0.4rem;
+            height: 3.2rem;
+            width: 60%;
+            padding: 0.8rem;
+            margin-top: 1.6rem;
+            background-color: #17a2b8;
+            border: 0.1rem solid #17a2b8;
+            color: white;
+            cursor: pointer;
+        }
+        .disabled {
+            background-color: #cdcdcd;
+            cursor: not-allowed;
+            color: #161616;
+            border: 0.1rem solid #cdcdcd;
+        }
+    }
+}

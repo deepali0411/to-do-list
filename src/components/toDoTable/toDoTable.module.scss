@@ -1,0 +1,41 @@
+.container {
+    margin: 1.6rem 0;
+    .filters {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 2.4rem;
+        .filterButton {
+            background-color: #17a2b8;
+            border: 0.1rem solid #17a2b8;
+            color: white;
+            cursor: pointer;
+            padding: 0.8rem;
+            border-radius: 0.4rem;
+        }
+        .active {
+            background-color: #073238;
+            border: 0.1rem solid #073238;
+        }
+    }
+    .deleteButtons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 2.4rem;
+        .deleteButton {
+            margin: 1.6rem 0;
+            background-color: rgb(179, 0, 0);
+            color: #fff;
+            border:  0.1rem solid rgb(179, 0, 0);
+            padding: 1.2rem;
+            border-radius: 0.4rem;
+            font-size: 1.4rem;
+            cursor: pointer;
+        }
+        .disabled {
+            background-color: #cdcdcd;
+            cursor: not-allowed;
+            color: #161616;
+            border: 0.1rem solid #cdcdcd;
+        }
+    }
+}

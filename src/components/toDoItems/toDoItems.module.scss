@@ -1,0 +1,47 @@
+.conatiner {
+    margin: 1.6rem 0;
+    border: 0.1rem solid #cdcdcd;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem;
+
+    .input {
+        min-width: 24rem;
+        border: 0.1rem solid #cdcdcd;
+    }
+    .name {
+        font-size: 1.8rem;
+    }
+    .checked {
+        color: rgb(162, 22, 22);
+        text-decoration: line-through;
+    }
+
+    .button {
+        display: flex;
+        align-items: center;
+        .checkBox {
+            cursor: pointer;
+            width: 1.8rem;
+            height: 1.8rem;
+        }
+        input[type="checkBox"]:disabled {
+            cursor: not-allowed;
+        }
+        .edit {
+            border: none;
+            background-color: #fff;
+            padding: 0;
+            margin: 0 1.6rem;
+            cursor: pointer;
+            font-size: 2rem;
+        }
+        .delete {
+            border: none;
+            background-color: #fff;
+            padding: 0;
+            cursor: pointer;
+        }
+    }
+}
